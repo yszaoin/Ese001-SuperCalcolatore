@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
                 risultato *= a;
                 esponente--;
             }
-            printf("%f^%d=%f\n", a, esponente, risultato);
+            printf("%f^%d=%f\n", a, (int)b, risultato);
             break;
         default:
             puts("Nuove oprazioni saranno disponibili a breve!\n");        
